@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>プライバシーポリシー</title>
+  <meta name="color-scheme" content="light only">
+  <style>
+    :root{
+      --beige: #F7EFE7;        /* app background */
+      --header: #A17A5B;       /* warm brown */
+      --ink-on-header: #1F140E;/* dark ink chosen for WCAG AA contrast on header */
+      --text: #1A1A1A;         /* body text */
+      --surface: #FFFFFF;      /* card surface */
+      --border: rgba(0,0,0,.08);
+      --radius: 14px;
+      --shadow: 0 1px 2px rgba(0,0,0,.06), 0 2px 6px rgba(0,0,0,.04);
+      --maxw: 860px;
+    }
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", Meiryo, "Noto Sans JP", "Yu Gothic", Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--beige);
+      line-height: 1.65;
+      letter-spacing: .02em;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    header.appbar{
+      background: var(--header);
+      color: var(--ink-on-header);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 6px 16px rgba(0,0,0,.08);
+    }
+    .appbar .wrap{
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 14px 16px;
+      display: flex;
+      align-items:center;
+      gap: 12px;
+    }
+    .appbar h1{
+      font-size: clamp(18px, 2.4vw, 22px);
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: .01em;
+    }
+    main{ max-width: var(--maxw); margin: 24px auto 64px; padding: 0 16px; }
+    .card{
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 18px 18px;
+      margin: 0 0 14px;
+    }
+    h2{ font-size: clamp(16px, 2.2vw, 20px); margin: 0 0 10px; color: var(--header); }
+    p{margin: 0 0 12px}
+    ul{margin: 8px 0 8px 1.25em}
+    li{margin: 4px 0}
+    .muted{ color: #555; font-size: .92rem; }
+    footer{ max-width: var(--maxw); margin: 24px auto 64px; padding: 0 16px; color: #666; font-size: .9rem; text-align: center; }
+    .badge{
+      display: inline-block; border-radius: 999px; background: rgba(161,122,91,.12);
+      color: var(--ink-on-header); padding: 4px 10px; font-size: .85rem; border: 1px solid rgba(161,122,91,.25);
+    }
+    a { color: #5b402c; }
+    @media (prefers-reduced-motion: no-preference){
+      .card{ transition: transform .12s ease, box-shadow .12s ease }
+      .card:hover{ transform: translateY(-1px); box-shadow: 0 4px 16px rgba(0,0,0,.10) }
+    }
+  </style>
+</head>
+<body>
+  <header class="appbar" role="banner">
+    <div class="wrap">
+      <h1>プライバシーポリシー</h1>
+    </div>
+  </header>
+
+  <main role="main">
+    <section class="card">
+      <h2>1. はじめに</h2>
+      <p>本アプリ（以下「当アプリ」）は、会員登録不要で匿名のまま悩みや愚痴を相談できるサービスです。本プライバシーポリシーは、当アプリにおけるユーザー情報の取り扱い方針を定めるものです。</p>
+    </section>
+
+    <section class="card">
+      <h2>2. 取得する情報</h2>
+      <p>当アプリは、以下の情報を自動的に取得することがあります（匿名性を重視して取り扱います）。</p>
+      <ul>
+        <li>IPアドレス</li>
+        <li>アクセス日時・リクエスト履歴</li>
+        <li>端末情報・OS情報・アプリ／ブラウザのバージョン</li>
+        <li>Cookie または同様の技術により取得される識別子・利用状況</li>
+      </ul>
+      <p>一方で、<strong>氏名、メールアドレス、電話番号</strong>など、個人を直接識別できる情報は取得しません。また、当アプリはこれらの入力を求めたり促したりしません。</p>
+    </section>
+
+    <section class="card">
+      <h2>3. 利用目的</h2>
+        <ul>
+          <li>サービス提供および安定運用（障害対応・品質維持）</li>
+          <li>安全対策（不正アクセスや濫用の検知など）</li>
+          <li>機能改善・利便性向上のための統計的分析（個人特定は行いません）</li>
+          <li>広告配信に必要な識別子や利用状況の提供を通じたパーソナライズド広告表示</li>
+          <li>AI機能の提供に必要な、入力内容（相談テキスト等）の外部クラウドサービスへの送信</li>        </ul>
+    </section>
+
+    <section class="card">
+      <h2>4. 第三者提供・広告</h2>
+      <p>当アプリは、法令に基づく場合を除き、取得データを第三者に販売しません。</p>
+      <p>ただし、<strong>広告配信のために、広告事業者（例：モバイル広告ネットワーク等）へ、Cookie等による識別子や利用状況などを送信する場合があります</strong>。これらの事業者は、当該情報をもとに興味・関心に基づく広告を表示することがあります。ユーザーは端末・OS・ブラウザの設定又は各事業者のオプトアウト機能により、パーソナライズド広告の無効化を選択できます。</p>
+      <p>また、当アプリはAI機能を提供するため、<strong>Aクラウドサービスに対し、ユーザーの入力内容（相談テキスト等）を送信</strong>します。</p>
+    </section>
+
+    <section class="card">
+      <h2>5. 保存期間と削除</h2>
+      <p>ログ情報は、上記の利用目的の達成に必要な期間のみ保持し、不要となった場合は適切な方法で削除します。</p>
+    </section>
+
+    <section class="card">
+      <h2>6. セキュリティ</h2>
+      <p>取得した情報の漏えい・改ざん・滅失等の防止のため、必要かつ適切な安全管理措置を講じます（技術設定の詳細は本ページでは割愛します）。</p>
+    </section>
+
+    <section class="card">
+      <h2>7. ユーザーからの問い合わせ</h2>
+      <p>匿名サービスの特性上、個人を特定するための情報を取得していないため、<strong>法的に義務付けられている場合を除き、個別の削除・開示等のご要望には対応しない</strong>方針です。一般的なご質問は本ページの内容をご参照ください。</p>
+    </section>
+
+    <section class="card">
+      <h2>8. 改定</h2>
+      <p>    本プライバシーポリシーは、法令の改正や本アプリの機能変更等に伴い、予告なく変更されることがあります。<br>
+        変更後のポリシーは、本ページ、本アプリ内または公式ウェブサイトに掲載された時点から適用されます。
+      </p>
+      <p class="muted">最終更新：2025年8月</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 本アプリ運営者</p>
+  </footer>
+</body>
+</html>
