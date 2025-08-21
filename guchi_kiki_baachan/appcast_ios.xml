@@ -3,10 +3,10 @@
   <channel>
     <item>
       <!-- <sparkle:tags><sparkle:criticalUpdate/></sparkle:tags> -->
-      <sparkle:criticalUpdate sparkle:version="1.4.0"/>
+      <sparkle:criticalUpdate sparkle:version="2.4.0"/>
       <enclosure 
         url="https://apps.apple.com/jp/app/idYOUR_APP_ID"
-        sparkle:version="1.4.0"
+        sparkle:version="2.4.0"
         sparkle:os="ios" />
     </item>
   </channel>
