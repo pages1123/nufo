@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <item>
-      <!-- <sparkle:tags><sparkle:criticalUpdate/></sparkle:tags> -->
+      <sparkle:tags><sparkle:criticalUpdate/></sparkle:tags>
       <enclosure 
         url="https://apps.apple.com/jp/app/idYOUR_APP_ID"
         sparkle:version="1.0.1"
